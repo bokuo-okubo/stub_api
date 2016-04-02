@@ -34,17 +34,17 @@ end
 
 def category_model
   {
-    "header": {
-      "status": "OK",
-      "code": "000"
+    header: {
+      status: "OK",
+      code: "000"
     },
-    "payload": {
-      "categoryID": 123456,
-      "tableSequence": 0,
-      "titleText": "GO TODAY",
-      "iconImgUrl": "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
-      "bgImgUrl": "http://satoshi19901.c.blog.so-net.ne.jp/_images/blog/_4c7/satoshi19901/5507741_4076568774.jpg?c=a0",
-      "webViewUrl": nil,
+    payload: {
+      categoryID: 123456,
+      tableSequence: 0,
+      titleText: "GO TODAY",
+      iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
+      bgImgUrl: "http://satoshi19901.c.blog.so-net.ne.jp/_images/blog/_4c7/satoshi19901/5507741_4076568774.jpg?c=a0",
+      webViewUrl: "",
     }
   }
 end
