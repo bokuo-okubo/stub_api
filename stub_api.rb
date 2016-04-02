@@ -1,11 +1,6 @@
  #encoding: utf-8
-require 'pry'
-require 'pry-byebug'
 require 'sinatra'
-require 'json'
-require 'active_support/dependencies'
-ActiveSupport::Dependencies.autoload_paths << './src/'
-
+require 'sinatra/json'
 
 get '/' do
   welcome_message
@@ -13,6 +8,10 @@ end
 
 get '/welcome/:name' do
   welcome_message params["name"]
+end
+
+get '/json' do
+  json :foo => 'bar'
 end
 
 def welcome_message(name = nil)
