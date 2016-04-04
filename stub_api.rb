@@ -43,7 +43,7 @@ def category_model
         tableSequence: 0,
         titleText: "GO TODAY",
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
-        bgImgUrl: "http://satoshi19901.c.blog.so-"
+        bgImgUrl: "http://hajimari2016.jp/wp/wp-content/uploads/2015/09/halloween_800x5001.jpg"
       },
       {
         categoryID: 654321,
@@ -51,7 +51,15 @@ def category_model
         titleText: "THIS WEEKEND",
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
         bgImgUrl: "http://satoshi19901.c.blog.so-"
+      },
+      {
+        categoryID: 654321,
+        tableSequence: 1,
+        titleText: "百年後の未来",
+        iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
+        bgImgUrl: "http://satoshi19901.c.blog.so-"
       }
+
     ]
   }
 end
