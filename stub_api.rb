@@ -59,7 +59,6 @@ def category_model
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
         bgImgUrl: "http://satoshi19901.c.blog.so-"
       }
-
     ]
   }
 end
