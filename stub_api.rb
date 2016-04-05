@@ -40,26 +40,25 @@ def category_model
     [
       {
         categoryID: 123456,
-        tableSequence: 0,
-        titleText: "GO TODAY",
+        sequence: 0,
+        title: "GO TODAY",
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
         bgImgUrl: "http://hajimari2016.jp/wp/wp-content/uploads/2015/09/halloween_800x5001.jpg"
       },
       {
         categoryID: 654321,
-        tableSequence: 1,
-        titleText: "THIS WEEKEND",
+        sequence: 1,
+        title: "THIS WEEKEND",
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
         bgImgUrl: "http://satoshi19901.c.blog.so-"
       },
       {
         categoryID: 654321,
-        tableSequence: 1,
-        titleText: "百年後の未来",
+        sequence: 1,
+        title: "百年後の未来",
         iconImgUrl: "http://megaicons.net/static/img/icons_sizes/8/178/512/timewise-today-icon.png",
         bgImgUrl: "http://satoshi19901.c.blog.so-"
       }
-
     ]
   }
 end
